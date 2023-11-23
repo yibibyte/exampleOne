@@ -12,7 +12,6 @@ public class Main {
         int number = 5;
         Integer numInteger = 10;
 
-//dgfdgd
         String hello;
         String world;
         String c;
