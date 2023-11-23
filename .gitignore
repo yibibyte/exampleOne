@@ -1,2 +1,8 @@
 # Project exclude paths
 /out/
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/.gitignore
+/exampleOne.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/codeStyles/Project.xml
