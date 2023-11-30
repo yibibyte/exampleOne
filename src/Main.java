@@ -7,8 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
-    //public static void main(String[] args) {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 // Объявление переменных
         int number = 5;
         Integer numInteger = 10;
@@ -108,6 +107,16 @@ public class Main {
         System.out.println("Первый символ строки: " + s.charAt(0));
         System.out.println("Строка в верхнем регистре: " + s.toUpperCase());
         */
+
+        // Создание объекта Light с параметрами
+        System.out.println("Creating Light object no. 1.");
+        Light light1 = new Light();                              // (5)
+        System.out.println("Creating Light object no. 2.");
+        Light light2 = new Light(250, true);                     // (6)
+        System.out.println("Creating Light object no. 3.");
+        Light light3 = new Light(250, true, "attic");            // (7)
+
+
 // Работа с массивом int
 /*
         for (int i = 0; i < a.length; i++) {
