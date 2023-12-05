@@ -24,6 +24,12 @@ public class Main {
 
         System.out.println(hello + world);
         System.out.println("Hello World");
+
+        // Add string "By World"
+
+        System.out.println("By World");
+
+
         System.out.println(c + d);
 
         // Объявление переменных примитивных типов
