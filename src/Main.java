@@ -7,41 +7,44 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
+    public int a = 123;
+    public static int ant = 123;
     public static void main(String[] args) {
-// Объявление переменных
-        int number = 5;
-        Integer numInteger = 10;
 
+        Person person = new Person("Ivan");
+        Person personIvan = new Person();
+
+
+
+// Объявление переменных
+         int number = 5;
+        Integer numInteger = 10;
         String hello;
         String world;
         String c;
         String d;
-
-        hello = "Hello ";
-        world = "world";
+        ant++;
+        hello = "Hello";
+        world = " world";
         c = "5 ";
         d = "One";
 
         System.out.println(hello + world);
         System.out.println("Hello World");
-
-        // Add string "By World"/////////////////////////////////////////////////
-        //////////////////////////////////////////////////
-        //////////////////////////////////////////////////
-        //////////////////////////////////////////////////
+        // Add string "By World"
         System.out.println("By World");
 
 
         System.out.println(c + d);
 
         // Объявление переменных примитивных типов
-        byte b = 127;
+        byte b = (byte) 128;
         short s = 32767;
         int i = 2147483647;
         long l = 9223372036854775807L;
         float f = 3.14f;
         double numDouble = 1.414213562373095048801688724209698078569671875D;
-        char symbol = 'a';
+        String symbol = "a ";
         boolean b1 = true;
         boolean b2 = false;
 
@@ -54,6 +57,61 @@ public class Main {
         System.out.println("d = " + d);
         System.out.println("c = " + c);
         System.out.println("b1 = " + b1);
+        System.out.println(symbol);
+
+
+//        byte  	2^8 		от -128 до 0, 127 , 0 в java считается положительным числом
+//        short	2^16		от -32768 до +32767
+//        char 	2^16 		хранит в себе символы в кодировке UTF-16 в диапозоне от 0 до 65536
+//        int 	2^32
+//        long	2^64
+//
+//        float 	min = 1.45E-45 max = 3.4028235E38 или 1.45*10-45
+//        double min = 4.9E-324 max = 1.7976931348623157E308
+//
+//        boolean true | false  нет никаких 0 и 1
+
+//        byte myByte = 127;
+//        int myInt = 128;
+//        char myChar = 1000;  // и у нас выведит символ знак бесконечности в перевернутом виде и это будте символ, а не число!
+//
+//        char symbolChar = 'a';
+//
+//        char hexChar = '\u33FF';
+//        boolean myBoolean = true;
+//
+//        System.out.println(symbolChar );
+
+
+/** Приведения типов  */
+// на повышение
+
+        byte myByte = 127;
+        int myInt100 = myByte;
+
+
+        double myDouble = myInt100; // допишется еще .0 то есть 127.0
+
+        float myFloat = myInt100; // тоже самое
+
+
+// понижение
+
+/*
+        int myInt100 = 100;
+        byte myByte = myInt100; // будет ошибка , нужно привести с должному виду явно, то есть сделать Class casting
+
+        byte myByte = (byte) myInt; 100 – 266 = -156
+
+       // если взять float и привести его к int то просто урезается десятичная часть и в итоге получим только целое число
+*/
+
+/** Wrappers  Автоупаковк и Автораспаковка*/
+
+        Integer myInteger = null;
+        int myInt1000 = 1000;
+
+
 
 
         // Объявление переменных
@@ -303,6 +361,14 @@ public class Main {
         System.out.println("l = " + l);
 
          */
+
+
+        Person tom = new Person("Tom");
+        tom.display();
+        Person sam = new Employee("Sam", "Oracle");
+        sam.display();
+        Person bob = new Client("Bob", "DeutscheBank", 3000);
+        bob.display();
 
 // Exception
 /*
