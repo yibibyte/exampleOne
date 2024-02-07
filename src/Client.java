@@ -1,9 +1,14 @@
-public class Client extends Person {
+import tasks.Task;
+import transport.Transport;
+
+public class Client extends Person  {
     private int sum; // Переменная для хранения суммы на счете
-    private String bank;
+    private String bank; // null
+
+    public Client() {
+    }
 
     public Client(String name, String bank, int sum) {
-
         super(name);
         this.bank=bank;
         this.sum=sum;

@@ -11,8 +11,11 @@ public class Main {
     public static int ant = 123;
     public static void main(String[] args) {
 
-        Person person = new Person("Ivan");
-        Person personIvan = new Person();
+//        Person person = new Person("Ivan");
+//        Person personIvan = new Person();
+//        Client clientOne = new Client();
+//        Client client2 = new Client();
+//        Client client3 = new Client("Petter", "Bank", 30);
 
 
 
@@ -278,7 +281,7 @@ public class Main {
         System.out.println(a2);
 
         ArrayList<Object> array1 = new ArrayList<Object>();
-        Car car1 = new Car("KIA");
+        transport.Car car1 = new transport.Car("KIA");
         array1.add(car1);
         array1.add(numer1);
         array1.add(numer2);
@@ -363,12 +366,12 @@ public class Main {
          */
 
 
-        Person tom = new Person("Tom");
-        tom.display();
-        Person sam = new Employee("Sam", "Oracle");
-        sam.display();
-        Person bob = new Client("Bob", "DeutscheBank", 3000);
-        bob.display();
+//        Person tom = new Person("Tom");
+//        tom.display();
+//        Person sam = new Employee("Sam", "Oracle");
+//        sam.display();
+//        Person bob = new Client("Bob", "DeutscheBank", 3000);
+//        bob.display();
 
 // Exception
 /*
