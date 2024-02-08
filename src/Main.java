@@ -368,7 +368,7 @@ public class Main {
 
 //        Person tom = new Person("Tom");
 //        tom.display();
-//        Person sam = new Employee("Sam", "Oracle");
+//        Person sam = new compare.Employee("Sam", "Oracle");
 //        sam.display();
 //        Person bob = new Client("Bob", "DeutscheBank", 3000);
 //        bob.display();
