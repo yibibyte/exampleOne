@@ -49,3 +49,12 @@
 /.idea/vcs.xml
 /.idea/workspace.xml
 /.idea/compiler.xml
+/target/classes/constructor/A.class
+/target/classes/constructor/B.class
+/target/classes/constructor/C.class
+/target/classes/stat/Car.class
+/target/classes/compare/Compare.class
+/target/classes/compare/Employee.class
+/target/classes/constructor/Konstructor.class
+/target/classes/stat/Main.class
+/target/classes/stringExample/MainStringPool.class
