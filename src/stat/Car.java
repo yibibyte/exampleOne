@@ -1,9 +1,26 @@
 package stat;
 
 public class Car {
-    String model;
-    int maxSpeed;
-    private  static int counter = 0;
+    private String model;
+    private int maxSpeed;
+    private Integer minSpeed;
+    static int counter = 0;
+    public Car() {
+        counter++;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
+
+    public Integer getMinSpeed() {
+        return minSpeed;
+    }
+
     public void toPrint() {
         System.out.println(this.model);
     }
