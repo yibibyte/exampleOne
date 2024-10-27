@@ -9,6 +9,7 @@ import java.util.List;
 public class Main {
     public int a = 123;
     public static int ant = 123;
+
     public static void main(String[] args) {
 
 //        Person person = new Person("Ivan");
@@ -18,9 +19,8 @@ public class Main {
 //        Client client3 = new Client("Petter", "Bank", 30);
 
 
-
 // Объявление переменных
-         int number = 5;
+        int number = 5;
         Integer numInteger = 10;
         String hello;
         String world;
@@ -63,13 +63,13 @@ public class Main {
         System.out.println(symbol);
 
 
-//        byte  	2^8 		от -128 до 0, 127 , 0 в java считается положительным числом
+//        byte  2^8 		от -128 до 0, 127 , 0 в java считается положительным числом
 //        short	2^16		от -32768 до +32767
 //        char 	2^16 		хранит в себе символы в кодировке UTF-16 в диапозоне от 0 до 65536
 //        int 	2^32
 //        long	2^64
 //
-//        float 	min = 1.45E-45 max = 3.4028235E38 или 1.45*10-45
+//        float min = 1.45E-45 max = 3.4028235E38 или 1.45*10-45
 //        double min = 4.9E-324 max = 1.7976931348623157E308
 //
 //        boolean true | false  нет никаких 0 и 1
@@ -115,11 +115,9 @@ public class Main {
         int myInt1000 = 1000;
 
 
-
-
         // Объявление переменных
 
-         int a = 10;
+        int a = 10;
 /*
 //         int b = 20;
 
