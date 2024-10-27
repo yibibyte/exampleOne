@@ -12,14 +12,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        Person person = new Person("Ivan");
-//        Person personIvan = new Person();
-//        Client clientOne = new Client();
-//        Client client2 = new Client();
-//        Client client3 = new Client("Petter", "Bank", 30);
+        //        Person person = new Person("Ivan");
+        //        Person personIvan = new Person();
+        //        Client clientOne = new Client();
+        //        Client client2 = new Client();
+        //        Client client3 = new Client("Petter", "Bank", 30);
 
 
-// Объявление переменных
+        // Объявление переменных
         int number = 5;
         Integer numInteger = 10;
         String hello;
