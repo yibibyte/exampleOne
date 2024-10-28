@@ -1,16 +1,135 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Main {
     public int a = 123;
     public static int ant = 123;
 
     public static void main(String[] args) {
+
+        boolean isActive = true;
+        Boolean isActive2 = false;
+
+        Integer numberOne = 1;
+        System.out.println("isActive=" + numberOne + isActive +isActive2);
+
+        boolean isAlive = true;
+        System.out.println("isActive=" + isActive);
+        System.out.println("isAlive=" + isAlive);
+        //boolean true | false  нет никаких 0 и 1
+
+        byte a = 127;
+
+        byte b = 6;
+        System.out.println("a=" + a);
+        System.out.println("b=" + b);
+        System.out.println("a + b=" + (a + b));
+
+        short aa = 7;
+        short bb = 8;
+        System.out.println("aa=" + aa);
+        System.out.println("bb=" + bb);
+        System.out.println("aa+ bb=" + (aa + bb));
+
+        int num1 = 123;
+        int num2 = 456;
+        System.out.println("num1=" + num1);
+        System.out.println("num2=" + num2);
+        System.out.println("num1+num2=" + (num1 + num2));
+
+        long number1 = 5;
+        long number2 = 6;
+        long summaryNums = number1 + number2;
+        System.out.println("summaryNums=" + summaryNums);
+
+        double x = 4.;
+        double y = 7.8;
+        System.out.println("x=" + x + "; y=" + y);
+
+        float xx = 9.5F;
+        float yy = 5.7F;
+        System.out.println("xx" + xx + "; yy=" + yy);
+
+        int xxx = 123_456;
+        int yyy = 234_567__789;
+        System.out.println(xxx);  // 123456
+        System.out.println(yyy);  // 234567789
+
+        float fl = 42.6f;
+        double db = 43.7;
+        System.out.println("fl== " + fl + "; db = " + db);
+
+        char ch = 65; // символ 'A'
+        System.out.println("ch = " + ch);
+
+        char myChar = 1000;  // выведит символ знак бесконечности в перевернутом виде и это будте символ, а не число!
+        System.out.println(myChar);
+
+        char symbolChar = 'a';
+        System.out.println(symbolChar);
+
+        char hexChar = '\u33FF';
+        System.out.println(hexChar);
+
+        String hello = "Hello world";
+        System.out.println(hello);
+
+        String textHelloWorld = "Hello \n world\n";
+        System.out.println(textHelloWorld);
+
+        String PushkinPoems = "Уж небо осенью дышало,\n" +
+                "Уж реже солнышко блистало,\n" +
+                "Короче становился день,\n" +
+                "Лесов таинственная сень\n" +
+                "С печальным шумом обнажалась,\n" +
+                "Ложился на поля туман,\n" +
+                "Гусей крикливых караван\n" +
+                "Тянулся к югу: приближалась\n" +
+                "Довольно скучная пора;\n" +
+                "Стоял ноябрь уж у двора.\n" +
+                "\n";
+        System.out.println(PushkinPoems);
+
+        // Появилась с 15 версией Java
+        String PushkinPoemsBegin15version = """
+                Уж небо осенью дышало,
+                Уж реже солнышко блистало,
+                Короче становился день,
+                Лесов таинственная сень
+                С печальным шумом обнажалась,
+                Ложился на поля туман,
+                Гусей крикливых караван
+                Тянулся к югу: приближалась
+                Довольно скучная пора;
+                Стоял ноябрь уж у двора.
+                """;
+        System.out.println(PushkinPoems);
+
+        System.out.println("x=" + x + "; y=" + y);
+
+        //%x: для вывода шестнадцатеричных чисел
+        //%f: для вывода чисел с плавающей точкой
+        //%e: для вывода чисел в экспоненциальной форме, например, 1.3e+01
+        //%c: для вывода одиночного символа
+        //%s: для вывода строковых значений
+
+        // Пример для %x: для вывода шестнадцатеричных чисел
+        int number = 255;
+        System.out.printf("Шестнадцатеричное представление числа %d: %x\n", number, number);
+
+        // Пример для %f: для вывода чисел с плавающей точкой
+        double floatNumber = 123.456789;
+        System.out.printf("Число с плавающей точкой: %.2f\n", floatNumber); // Ограничение до 2 знаков после запятой
+
+        // Пример для %e: для вывода чисел в экспоненциальной форме
+        double scientificNumber = 123456789.0;
+        System.out.printf("Экспоненциальная форма: %.2e\n", scientificNumber); // Ограничение до 2 знаков после запятой
+
+        // Пример для %c: для вывода одиночного символа
+        char character = 'A';
+        System.out.printf("Одиночный символ: %c\n", character);
+
+        // Пример для %s: для вывода строковых значений
+        String text = "Привет, мир!";
+        System.out.printf("Строка: %s\n", text);
+
 
         //        Person person = new Person("Ivan");
         //        Person personIvan = new Person();
@@ -20,70 +139,51 @@ public class Main {
 
 
         // Объявление переменных
-        int number = 5;
+
         Integer numInteger = 10;
-        String hello;
+        String Hello;
         String world;
         String c;
         String d;
         ant++;
+
         hello = "Hello";
         world = " world";
+
         c = "5 ";
         d = "One";
 
         System.out.println(hello + world);
         System.out.println("Hello World");
-        // Add string "By World"
         System.out.println("By World");
-
 
         System.out.println(c + d);
 
         // Объявление переменных примитивных типов
-        byte b = (byte) 128;
+        byte varByte = (byte) 128;
         short s = 32767;
         int i = 2147483647;
         long l = 9223372036854775807L;
         float f = 3.14f;
         double numDouble = 1.414213562373095048801688724209698078569671875D;
         String symbol = "a ";
-        boolean b1 = true;
+        boolean var = true;
         boolean b2 = false;
 
         // Вывод значений переменных
-        System.out.println("b = " + b);
+        System.out.println("b1 = " + varByte);
         System.out.println("s = " + s);
         System.out.println("i = " + i);
         System.out.println("l = " + l);
         System.out.println("f = " + f);
         System.out.println("d = " + d);
         System.out.println("c = " + c);
-        System.out.println("b1 = " + b1);
+        System.out.println("b2 = " + b2);
         System.out.println(symbol);
 
 
-//        byte  2^8 		от -128 до 0, 127 , 0 в java считается положительным числом
-//        short	2^16		от -32768 до +32767
-//        char 	2^16 		хранит в себе символы в кодировке UTF-16 в диапозоне от 0 до 65536
-//        int 	2^32
-//        long	2^64
-//
 //        float min = 1.45E-45 max = 3.4028235E38 или 1.45*10-45
 //        double min = 4.9E-324 max = 1.7976931348623157E308
-//
-//        boolean true | false  нет никаких 0 и 1
-
-//        byte myByte = 127;
-//        int myInt = 128;
-//        char myChar = 1000;  // и у нас выведит символ знак бесконечности в перевернутом виде и это будте символ, а не число!
-//
-//        char symbolChar = 'a';
-//
-//        char hexChar = '\u33FF';
-//        boolean myBoolean = true;
-//
-//        System.out.println(symbolChar );
 
 
 /** Приведения типов  */
@@ -117,8 +217,8 @@ public class Main {
 
         // Объявление переменных
 
-        int a = 10;
 /*
+           int a = 10;
 //         int b = 20;
 
          // Вычисление
@@ -133,6 +233,10 @@ public class Main {
          System.out.println("e = " + e);
          System.out.println("f = " + f);
 
+        int x = 0;
+        x = x + 1; // x = 0 + 1 => x = 1
+        x = x + 1; // x = 1 + 1 => x = 2
+        x = x + 1; // x = 2 + 1 => x = 3
 */
 
 
@@ -483,3 +587,4 @@ public class Main {
 
     }
 }
+
