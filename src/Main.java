@@ -13,6 +13,13 @@ public class Main {
         boolean isAlive = true;
         System.out.println("isActive=" + isActive);
         System.out.println("isAlive=" + isAlive);
+
+        //boolean true | false  нет никаких 0 и 1
+        //boolean true | false  нет никаких 0 и 1
+        //boolean true | false  нет никаких 0 и 1
+        //boolean true | false  нет никаких 0 и 1
+        //boolean true | false  нет никаких 0 и 1
+        //boolean true | false  нет никаких 0 и 1
         //boolean true | false  нет никаких 0 и 1
 
         byte a = 127;
