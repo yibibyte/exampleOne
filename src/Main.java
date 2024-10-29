@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("Hello World!");
+
         boolean isActive = true;
         Boolean isActive2 = false;
 
