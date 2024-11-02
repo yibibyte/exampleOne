@@ -11,7 +11,7 @@ public class Scan {
         do {
             System.out.print("Введите число (введите 0 для завершения): ");
             number = scanner.nextInt();
-            System.out.println("Вы ввели: " + number);
+            System.out.println( number);
         } while (number != 0);
     }
 }
