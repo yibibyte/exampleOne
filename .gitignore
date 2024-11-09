@@ -61,3 +61,4 @@
 /target/classes/recursion/Recursion.class
 /target/classes/scanner/Scan.class
 /target/classes/recursion/StartRecursion.class
+!/target/
