@@ -58,3 +58,11 @@
 /target/classes/constructor/Konstructor.class
 /target/classes/stat/Main.class
 /target/classes/stringExample/MainStringPool.class
+/target/classes/animal/A.class
+/target/classes/packageModifiersOne/Access.class
+/target/classes/packageModifiersTwo/AccessTwo.class
+/target/classes/animal/B.class
+/target/classes/packageModifiersOne/Modifiers.class
+/target/classes/recursion/Recursion.class
+/target/classes/scanner/Scan.class
+/target/classes/recursion/StartRecursion.class
