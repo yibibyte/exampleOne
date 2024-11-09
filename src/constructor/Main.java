@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("");
 
-        Dog dog = new Dog("dog",10,"Grey");
+        Dog dog = new Dog("dog", 10, "Grey");
         dog.bark();
 
         System.out.println("");

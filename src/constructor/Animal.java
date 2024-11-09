@@ -17,12 +17,14 @@ public class Animal {
         System.out.println("Animal constructor one parameter: Name");
         cout++;
     }
+
     public Animal(String name, int age) {
         this.name = name;
         this.age = age;
         System.out.println("Animal constructor with two parameters: Name and Age");
         cout++;
     }
+
     public void bark() {
         System.out.println("Make sound!");
     }

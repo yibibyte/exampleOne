@@ -1,6 +1,6 @@
 package constructor;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
     private String name = "Palkan";
     private int age = 20;
     private String color = "Brown";
@@ -13,6 +13,7 @@ public class Dog extends Animal{
         System.out.println("Dog Constructor");
         cout++;
     }
+
     @Override
     public void bark() {
 //        super.bark();

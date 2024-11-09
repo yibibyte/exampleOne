@@ -1,7 +1,9 @@
 package stat;
 
 // Импортирование статического метода без указания имени класса
+
 import static java.lang.Math.pow;
+import static java.lang.Math.PI;
 
 public class MathOperations {
     // Статический метод для сложения двух чисел
@@ -17,10 +19,10 @@ public class MathOperations {
 
     public static void main(String[] args) {
 
-
         // Можно вызвать статический метод без создания экземпляра класса
         int result = MathOperations.add(5, 3);
         System.out.println("Сумма: " + result);
+        System.out.println("Пи равна: " + PI);
 
 
 //        // Использование статического метода без указания класса
