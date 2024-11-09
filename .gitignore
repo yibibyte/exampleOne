@@ -41,14 +41,9 @@
 /target/classes/animal/UpcastingExample.class
 /.idea/workspace.xml
 /.idea/
-/exampleOne.iml
 /my-project.iml
 /.idea/compiler.xml
 /.idea/dbnavigator.xml
-/.idea/uiDesigner.xml
-/.idea/vcs.xml
-/.idea/workspace.xml
-/.idea/compiler.xml
 /target/classes/constructor/A.class
 /target/classes/constructor/B.class
 /target/classes/constructor/C.class
