@@ -10,14 +10,14 @@ public class Dog extends Animal {
     public Dog(String name, int age, String color) {
         super(name, age);
         this.color = color;
-        System.out.println("Dog Constructor");
+        System.out.println("Dog Constructor with parameters: " + name + " " + age + " " + color);
         cout++;
     }
 
     @Override
     public void bark() {
-//        super.bark();
-        System.out.println("Woof Woof");
+        super.bark();
+        //System.out.println("Woof Woof");
     }
 }
 

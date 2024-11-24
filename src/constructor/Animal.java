@@ -14,7 +14,7 @@ public class Animal {
 
     public Animal(String name) {
         this.name = name;
-        System.out.println("Animal constructor one parameter: Name");
+        System.out.println("Animal constructor one parameter: " + name);
         cout++;
     }
 
@@ -26,6 +26,11 @@ public class Animal {
     }
 
     public void bark() {
-        System.out.println("Make sound!");
+        System.out.println("Make sound from Animal!");
+        cout++;
+    }
+
+    public void bark(String name) {
+        //System.out.println("Make sound!");
     }
 }

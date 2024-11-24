@@ -6,7 +6,7 @@ public class UpcastingExample {
         myDog.eat(); // Метод из Animal доступен
         myDog.bark();
 
-        Animal myAnimal = myDog; // Восходящее приведение
+        Animal myAnimal = new Dog(); // Восходящее приведение
         myAnimal.eat(); // Метод из Animal доступен, хотя ссылка типа Animal
         // myAnimal.bark(); // Ошибка компиляции, так как метод bark() отсутствует в Animal
     }
