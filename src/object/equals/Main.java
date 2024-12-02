@@ -7,6 +7,5 @@ public class Main {
         Person person1 = new Person("Alice", 30);
         Person person2 = new Person("Alice", 30);
         System.out.println(person1.equals(person2)); // Вывод: true
-
     }
 }
